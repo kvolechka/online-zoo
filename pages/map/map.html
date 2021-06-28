@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetStory-online</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="map.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <h1>PetStory Online</h1>
+    <nav class="container navigation">
+      <a href="../../pages/landing/landing.html" class="link new_logo"><img src="../../assets/logo_footer.png" alt="logo"/></a>
+      <a href="../../pages/landing/landing.html" class="link logo"><img src="../../assets/logo.png" alt="logo"/></a>
+      <a href="../../pages/landing/landing.html" class="link about">About</a>
+      <a href="../../pages/map/map.html" class="link map">Map</a>
+      <a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a>
+      <a href="#" class="link contact_us">Contact us</a>
+      <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=126%3A0" class="link designed_by"
+        >Designed by ©</a>
+    </nav>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a href="../../pages/landing/landing.html" class="link about">About</a></li>
+        <li><a href="../../pages/map/map.html" class="link map">Map</a></li>
+        <li><a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a></li>
+        <li><a href="#" class="link contact_us">Contact us</a></li>
+        <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=126%3A0" class="link designed_by"
+        >Designed by ©</a></li>
+      </ul>
+    </div>
+  </header>
+ <section class="maps">
+    <div class="container map-box">
+      <div class="animals-map">
+        <div class="eagle-one-map animals-img"><img src="../../assets/map/eagle1.png" alt="eagle"></div>
+        <div class="eagle-two-map animals-img"><img src="../../assets/map/eagle2.png" alt="eagle"></div>
+        <div class="crocodile-map animals-img"><img src="../../assets/map/lonely-crocodile.png" alt="crocodile"></div>
+        <div class="gorillas-map animals-img"><img src="../../assets/map/gorillas.png" alt="gorillas"></div>
+        <div class="panda-map animals-img"><img src="../../assets/map/panda.png" alt="panda"></div>
+        <div class="pandas-map animals-img" ><img src="../../assets/map/pandas.png" alt="pandas"></div>
+        <div class="tooltip crocodile-tooltip">
+          <p>Alligators</p>
+          <p>Florida, USA</p>
+          <button>Watch online</button>
+        </div>
+        <div class="tooltip eagles-tooltip">
+          <p>Eagles</p>
+          <p>Los Angeles, USA</p>
+          <button>Watch online</button>
+        </div>
+        <div class="tooltip gorillas-tooltip">
+          <p>Gorillas</p>
+          <p>Congo</p>
+          <button>Watch online</button>
+       </div>
+        <div class="tooltip pandas-tooltip">
+          <p>Pandas</p>
+          <p>China</p>
+          <button>Watch online</button>
+        </div>
+      </div>
+    </div>
+    <div class="wrapper">
+      <div class="plus-minus">
+        <button class="plus"><img src="../../assets/map/plus_icon.png" alt="plus"></button>
+        <button class="minus"><img src="../../assets/map/minus_icon.png" alt="minus"></button>
+    </div>
+  </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="top-box">
+        <a href="../../pages/landing/landing.html" class="link"><img src="../../assets/logo.png" alt="logo"/></a>
+        <a href="../../pages/landing/landing.html" class="link"><span class="logo">PetStory online<span class="bamboo"><img src="/assets/bamboo.svg" alt=""></span></span></a>
+        <div class="form">
+          <p>Subscribe to our news</p>
+          <input class="email" type="email" placeholder="Enter your email" />
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+      <form action="../donate/donate.html"> 
+        <button class="btn">donate for volunteers</button>
+      </form>
+      <div class="bottom-box">
+        <div class="social">
+          <a href="https://www.facebook.com/" class="social-item">
+            <img src="../../assets/social/facebook.svg" alt="Facebook" />
+            <span>Facebook</span>
+          </a>
+          <a href="https://twitter.com/?lang=ru" class="social-item">
+            <img src="../../assets/social/twitter.svg" alt="Twitter" />
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/?hl=ru" class="social-item">
+            <img src="../../assets/social/inst.svg" alt="Instagram" />
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/" class="social-item">
+            <img src="../../assets/social/youtube.svg" alt="YouTube" />
+            <span>YouTube</span>
+          </a>
+        </div>
+        <div class="navigation">
+        <a href="../../pages/landing/landing.html" class="link about">About</a>
+        <a href="../../pages/map/map.html" class="link map">Map</a>
+        <a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a>
+          <a class="link contact-us" href="#">Contact us</a>
+        </div>
+        <div class="designed">
+          <p>Designed by Alisa Samborskaya</p>
+          <p>©RSSchool & ©Yem Digital 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="map.js"></script>
+</body>
+</html>

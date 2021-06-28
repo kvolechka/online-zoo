@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetStory-online</title>
+  <link rel="stylesheet" href="/pages/donate-form/reset.css">
+  <link rel="stylesheet" href="donate-form.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="container donate-form">
+    <div class="donate-form-box-left"></div>
+
+    <div class="donate-form-box-right">
+
+      <div class="donation-inform">
+        <h3>Donation Information</h3>
+        <div class="price">
+          <span class="text-input-left">Amount:</span>
+            <input type="number" class="input-amount" placeholder="1000">
+        </div>
+      </div>
+
+      <div class="additional-information">
+        <h3>Additional information</h3>
+          
+            <div class="content-donate">
+              <div class="text-left">
+                <p class="text-input-left"></p>
+                <p class="text-input-left">Corporate:</p>
+                <p class="text-input-left anonymous">Anonymous:</p>
+                <p class="text-input-left commemts">Comments:</p>
+              </div>
+
+              <div class="content-right">
+                <div class="input-right">
+                  <input type="checkbox" id="coding" name="inform" value="coding">
+                  <label for="coding" class="text-input-right">Share with your friends on social networks </label>
+                  <div class="image-group-social">
+                    <img class="facebook" src="/assets/donate-form/facebook.png" alt="Facebook">
+                    <img class="insagram" src="/assets/donate-form/Instagram.png" alt="Insatgram">
+                    <img class="twitter" src="/assets/donate-form/Twitter.png" alt="Twitter">
+                  </div>
+              </div>
+
+                <div class="input-right bottom-20">
+                  <input type="checkbox" id="corporate" name="inform" value="corporate">
+                  <label for="corporate" class="text-input-right">This donation is on behalf of a company</label>
+                </div>
+
+                <div class="input-right">
+                  <input type="checkbox" id="anonymous" name="inform" value="anonymous">
+                <label for="anonymous" class="text-input-right">I prefer to make this donation anonymously</label>
+                </div>
+
+                <div class="input-right top-10">
+                  <textarea name="text" class="border"></textarea>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="payment-information">
+        <h3>Payment information</h3>
+          
+            <div class="content-donate payment-content">
+              <div class="text-left">
+                <p class="text-input-left required top-text">Cardholder's Name:</p>
+                <p class="text-input-left required card-top">Card Type:</p>
+                <p class="text-input-left required card-top">Credit Card Number:</p>
+                <p class="text-input-left required card-top">Card Expiration:</p>
+                <p class="text-input-left required card-top">Card Security Code:</p>
+                <p class="text-input-left bottom-10">Amount:</p>
+              </div>
+
+              <div class="content-right">
+                <div class="input-right bottom-20">
+                  <input type="text" class="border width-515" required>
+                </div>
+
+                <div class="input-right bottom-20 card-type">
+                  <input type="text" class="border width-515" required>
+                </div>
+
+                <div class="input-right bottom-20">
+                  <input type="text" class="border width-515" required>
+                </div>
+
+                <div class="input-right bottom-20 select-expiration">
+                  <div class="select-card">
+                    <span class="select-caret"><img src="/assets/donate-form/caret.png" alt="caret"></span>
+                  <select name="list1" class="border credit-card list-one" required>
+                  </select>
+                  </div>
+                  <div class="select-card">
+                    <span class="select-caret"><img src="/assets/donate-form/caret.png" alt="caret"></span>
+                    <select name="list2" class="border credit-card" required></select>
+                  </select>
+                  </div>
+                </div>
+
+                <div class="input-right bottom-20">
+                  <input type="number" class="border card-security" placeholder="0000" required>
+                </div>
+
+
+                <div class="input-right">
+                  <input type="number" class="input-amount" placeholder="1000">
+                </div>
+
+              </div>
+            </div>
+            <div class="button-donate">
+              <button class="btn">donate now</button>
+            </div>
+        </div>
+
+        
+      </div>
+    </div>
+  </section>
+</body>
+</html>

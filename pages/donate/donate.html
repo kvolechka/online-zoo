@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PetStory-online</title>
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="donate.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+   <h1>PetStory Online</h1>
+   <header class="header">
+    <h1>PetStory Online</h1>
+    <nav class="container navigation">
+      <a href="../../pages/landing/landing.html" class="link new_logo"><img src="../../assets/logo_footer.png" alt="logo"/></a>
+      <a href="../../pages/landing/landing.html" class="link logo"><img src="../../assets/logo.png" alt="logo"/></a>
+      <a href="../../pages/landing/landing.html" class="link about">About</a>
+      <a href="../../pages/map/map.html" class="link map">Map</a>
+      <a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a>
+      <a href="#" class="link contact_us">Contact us</a>
+      <a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=126%3A0" class="link designed_by"
+        >Designed by ©</a>
+    </nav>
+    <div class="hamburger-menu">
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__btn" for="menu__toggle">
+        <span></span>
+      </label>
+      <ul class="menu__box">
+        <li><a href="../../pages/landing/landing.html" class="link about">About</a></li>
+        <li><a href="../../pages/map/map.html" class="link map">Map</a></li>
+        <li><a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a></li>
+        <li><a href="#" class="link contact_us">Contact us</a></li>
+        <li><a href="https://www.figma.com/file/jfEFwkXVj1WRq7sUHDr8os/PetStory-online?node-id=126%3A0" class="link designed_by"
+        >Designed by ©</a></li>
+      </ul>
+    </div>
+  </header>
+  <section class="donate-background"></section>
+  <section class="bg-color">
+    <div class="container zoo-text-all">
+      <h3 class="zoo-title">THE ZOO HAS OFFICIALLY REOPENED BUT WE STILL NEED YOUR HELP!</h3>
+      <p class="zoo-text">Even though the Zoo has been able to reopen, we are at a greatly reduced capacity with educational programs and public and private events cancelled or postponed for additional months. We need you now more than ever to help ensure that we overcome these challenges. We have been actively raising funds in the community, and we are grateful for the generosity.  But much more support is still needed, and we need your help! Please consider a gift today – no matter what size – to help us sustain our mission.</p>
+    </div>
+    <div class="container donation-information">
+      <h3 class="donation-title">Donation Information</h3>
+      <div class="donation-box">
+        <h2 class="donation-box-titile">Pick and feed a friend</h2>
+        <p class="donation-box-text">We know the animals bring you joy, and in these extraordinary times, we’re glad.</p>
+
+        <div class="animals-widget">
+          <div class="animals-widget-counter-all">
+              <p class="number-animals">4</p>
+              <p class="text-animals">Panda diet for the day.</p>
+          </div>
+          <div class="animal-multiply">
+            <img src="../../assets/multiply.png" alt="multiply" class="multiply">
+          </div>
+          <div class="animals-widget-panda">
+            <img src="../../assets/panda_widget2.png" alt="photo animal" class="animal-widget">
+          </div>
+        </div>
+
+        <div class="amount-all">
+          <p class="amount-title">Amount</p>
+          <div class="amount-breakpoints">
+            <div class="amount-line"></div>
+            <div class="amount-wrapper">
+              <label for="dollars-5000" class="amount-item"><input value="5000" name="amount-button" type="radio" id="dollars-5000"></label>
+              <label for="dollars-2000" class="amount-item"><input value="2000" name="amount-button" type="radio" id="dollars-2000"></label>
+              <label for="dollars-1000" class="amount-item"><input value="1000" name="amount-button" type="radio" id="dollars-1000"></label>
+              <label for="dollars-500" class="amount-item"><input value="500" name="amount-button" type="radio" id="dollars-500"></label>
+              <label for="dollars-250" class="amount-item"><input value="250" name="amount-button" type="radio" id="dollars-250"></label>
+              <label for="dollars-100" class="amount-item"><input value="100" name="amount-button" type="radio" id="dollars-100" checked></label>
+              <label for="dollars-50" class="amount-item"><input value="50" name="amount-button" type="radio" id="dollars-50"></label>
+              <label for="dollars-25" class="amount-item"><input value="25" name="amount-button" type="radio" id="dollars-25"></label>
+            </div>
+          </div>
+          <div class="amount-price-wrapper">
+            <span class="amount-price-item thousand">$5000</span>
+            <span class="amount-price-item thousand">$2000</span>
+            <span class="amount-price-item thousand">$1000</span>
+            <span class="amount-price-item hundreds">$500</span>
+            <span class="amount-price-item hundreds">$250</span>
+            <span class="amount-price-item hundreds">$100</span>
+            <span class="amount-price-item">$50</span>
+            <span class="amount-price-item">$25</span>
+          </div>
+
+          <div class="price"> 
+            <input value="100" type="number" pattern="\d*" maxlength="4" class="input-amount" placeholder="Another amount" onkeypress='return event.charCode >= 48 && event.charCode <= 57'>
+          </div>
+          
+        </div>
+
+        <div class="radiobuttons">
+            <input type="radio" id="radioButtonMounthly" name="choice" value="mounthly" class="radiobutton" checked>
+            <label for="radioButtonMounthly" class="radiobutton-text">Mounthly</label>
+          
+            <input type="radio" id="radioButtonOnce" name="choice" value="once" class="radiobutton">
+            <label for="radioButtonOnce" class="radiobutton-text">Once</label>
+        </div>
+
+        <div class="button-donate">
+          <button class="btn-desc">Feed a friend now</button>
+        </div>
+
+        <p class="donate-text-bottom">Share with your friends on social networks </p>
+
+      </div>
+    </div>
+
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="top-box">
+        <a href="../../pages/landing/landing.html" class="link"><img src="../../assets/logo.png" alt="logo"/></a>
+        <a href="../../pages/landing/landing.html" class="link"><span class="logo">PetStory online<span class="bamboo"><img src="/assets/bamboo.svg" alt=""></span></span></a>
+        <div class="form">
+          <p>Subscribe to our news</p>
+          <input class="email" type="email" placeholder="Enter your email" />
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+      <form action="../donate/donate.html"> 
+        <button class="btn">donate for volunteers</button>
+      </form>
+      <div class="bottom-box">
+        <div class="social">
+          <a href="https://www.facebook.com/" class="social-item">
+            <img src="../../assets/social/facebook.svg" alt="Facebook" />
+            <span>Facebook</span>
+          </a>
+          <a href="https://twitter.com/?lang=ru" class="social-item">
+            <img src="../../assets/social/twitter.svg" alt="Twitter" />
+            <span>Twitter</span>
+          </a>
+          <a href="https://www.instagram.com/?hl=ru" class="social-item">
+            <img src="../../assets/social/inst.svg" alt="Instagram" />
+            <span>Instagram</span>
+          </a>
+          <a href="https://www.youtube.com/" class="social-item">
+            <img src="../../assets/social/youtube.svg" alt="YouTube" />
+            <span>YouTube</span>
+          </a>
+        </div>
+        <div class="navigation">
+        <a href="../../pages/landing/landing.html" class="link about">About</a>
+        <a href="../../pages/map/map.html" class="link map">Map</a>
+        <a href="../../pages/zoos/panda/panda.html" class="link zoos">Zoos</a>
+          <a class="link contact-us" href="#">Contact us</a>
+        </div>
+        <div class="designed">
+          <p>Designed by Alisa Samborskaya</p>
+          <p>©RSSchool & ©Yem Digital 2021</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="donate.js"></script>
+</body>
+</html>
