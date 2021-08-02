@@ -49,13 +49,6 @@ function prevSlide () {
   }
 rightBtn.addEventListener('click', nextSlide);
 leftBtn.addEventListener('click', prevSlide);
-sliderContainer.addEventListener('click', openVideo);
-window.addEventListener("resize", () => {
-    sliderContainerWidth = sliderContainer.offsetWidth;
-    slideWidth = sliderContainer.firstElementChild.offsetWidth;
-    k = Math.round(sliderContainerWidth/slideWidth);
-    sliderContainer.style['transform'] = 'translateX(0px)';
-    counter = 0;
-  });
+sliderContainer.addEventListener('click', openVideo)
 
 

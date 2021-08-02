@@ -5,7 +5,6 @@ const leftBtn = document.querySelector('.left-arrow');
 const rightBtn = document.querySelector('.right-arrow');
 let counter = 1;
 const size = slidesItem[0].clientWidth;
-console.log(counter)
 sliderContainer.style.transform = 'translateX(' + (-size * counter) + 'px)' ;
 function nextSlide () {
     if(counter >= slidesItem.length -1) return;
